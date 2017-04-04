@@ -20,3 +20,7 @@ It showcases the following tooling.
   ``npm test`` manually runs **Jest** and produces a full lcov coverage report.
 
   ``typedoc -out API_Docs`` generates the API documentation inside ``API_Docs/``
+
+  ``tsc math.ts`` compiles to ``./math.js``
+
+  then you can run ``node index.js``
